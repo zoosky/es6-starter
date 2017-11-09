@@ -27,11 +27,11 @@ This repo comes with a running sample. To see the running sample do the followin
 
 **Commands**
 
-`npm run start:dev` or `yarn start:dev` - runs the build script with `--watch` flag.
-`npm run build:webpack` or `yarn build:webpack` - builds the code from `src` using webpack.
-`npm run build:rollup` or `yarn build:rollup` - builds the code from `src` using rollup.
-`npm run build:all` or `yarn build:all` - builds both webpack and rollup.
-`npm run test:runscript` or `yarn test:runscript` - will run the code from `dist` folder using nodejs.
+- `npm run start:dev` or `yarn start:dev` - runs the build script with `--watch` flag.
+- `npm run build:webpack` or `yarn build:webpack` - builds the code from `src` using webpack.
+- `npm run build:rollup` or `yarn build:rollup` - builds the code from `src` using rollup.
+- `npm run build:all` or `yarn build:all` - builds both webpack and rollup.
+- `npm run test:runscript` or `yarn test:runscript` - will run the code from `dist` folder using nodejs.
 
 > Happy coding!
 
