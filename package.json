@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:runscript": "node tester.js",
+    "test:openbrowser": "google-chrome tester.html",
     "start:dev": "webpack --watch",
     "prebuild:webpack": "rm -rf dist",
-    "build:webpack": "webpack --progress --hide-modules"
+    "prebuild:rollup": "rm -rf build",
+    "build:webpack": "webpack --progress --hide-modules",
+    "build:rollup": "rollup -c",
+    "build:all": "npm run build:webpack && npm run build:rollup"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
