@@ -36,3 +36,7 @@ This repo comes with a running sample. To see the running sample do the followin
 > Happy coding!
 
 **Made with :heart: by Jofferson Ramirez Tiquez**
+
+See 
+* https://github.com/babel/babel-preset-env/issues/203
+* http://babeljs.io/learn-es2015/
