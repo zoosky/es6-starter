@@ -11,15 +11,15 @@
           ],
           "node": "current"
         },
-        "useBuiltIns": true
+        "modules": false,
       }],
-      "react",
       "stage-1"
     ],
     "ignore": [
       "node_modules"
     ],
     "plugins": [
+      "external-helpers",
       "transform-decorators-legacy",
       "transform-class-properties",
       "syntax-class-properties"
