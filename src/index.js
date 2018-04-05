@@ -5,6 +5,11 @@
   do not limit your code just by following
   the stupid sample below.
 */
+import 'babel-polyfill';
+import { version } from '../package.json';
+import 'core-js'
+
+console.log('version ' + version);
 
 export default class Cat {
   constructor(name) {
@@ -38,3 +43,11 @@ export default class Cat {
     console.log(`${ this.name } doesn't want to eat ${ food }.`);
   }
 }
+
+const cat = new Cat('Module Kidlat');
+cat.talk();
+cat.meow();
+cat.walk();
+cat.sleep(3);
+cat.feed('fish');
+cat.feed('dog food');
